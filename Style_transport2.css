@@ -112,7 +112,7 @@ body{
 @media (max-width: 393px){
     body{
         background-attachment: fixed;
-        background-size: 140%;
+        background-size: 150%;
         background-position-x: -90px;
         background-position-y: 240px;
     }
