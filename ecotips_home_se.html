@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Tips</title>
+    <link rel="icon" href="Image/icon.png">
+    <link rel="stylesheet" href="Style_accordion.css">
+    <style>
+        .header_container p{
+            width: 750px;
+        }
+
+        .gallary_container img{
+            border-radius: 100px;
+            width: 50%;
+            aspect-ratio: 16/9;
+            margin:auto;
+            margin-left: 110px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo"></div>
+        <ul>
+            <li class="link"><a href="index.html">Home</a></li>
+            <li class="link"><a href="ecotips.html">Eco Tips</a></li>
+            <li class="link"><a href="products.html">Products</a></li>
+            <li class="link"><a href="community.html">Community</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="header_container">
+                <h1>Save Energy</h1>
+                <p>Helping to preserve this precious resource for future generations can help us make significant changes in our lives through simple measures.</p>
+        </div>
+    </header>
+
+    <ul id="accordion">
+        <li>
+            <input type="radio" name="accordion" id="first" checked>
+            <label for="first"><span class="text">1. Switch off lights and electrical appliances when not using them </span><span class="arrow">&#x3e;</span></label>
+                <div class="content">
+                <p>To save the most energy, switch off the power point rather than leave appliances on standby.</p>
+                <p>Switch off your computer and equipment such as printers or Wi-Fi routers overnight or when you're away. Most computers have energy-saving settings that will turn the computer and screen off after a period of inactivity.</p>
+                </div>
+        </li>
+
+        <li>
+            <input type="radio" name="accordion" id="second">
+            <label for="second"><span class="text">2. Minimising hot water use</span><span class="arrow">&#x3e;</span></label>
+                <div class="content">
+                <p>Hot water is responsible for around 25% of the average household energy bill. Ways to reduce this include:</p>
+                <ul>
+                    <li>- washing clothes in cold water and waiting until there is a full load</li>
+                    <li>- only running the dishwasher when it's full and on energy-saving mode</li>
+                    <li>- fitting a low-flow showerhead (it will pay for itself in no time)</li>
+                    <li>- keeping showers short</li>
+                </ul>
+                </div>
+        </li>
+
+        <li>
+            <input type="radio" name="accordion" id="third">
+            <label for="third"><span class="text">3. Choosing efficient appliances </span><span class="arrow">&#x3e;</span></label>
+                <div class="content">
+                <p>Household appliances can account for up to one third of your energy bill.</p>
+                <p>If you're buying a new fridge, freezer, television, washing machine, clothes dryer, dishwasher or air-conditioner, look for the Energy Rating Label.</p>
+                <p>High star-rated models can cost a little more, but choosing a cheaper less energy-efficient product could end up costing more in the long run. This is because running costs over the product's lifetime can add up to more than any savings made on the original purchase price.</p>
+                </div>
+        </li>
+
+        <li>
+            <input type="radio" name="accordion" id="forth">
+            <label for="forth"><span class="text">4. Use energy star appliances and equipment</span><span class="arrow">&#x3e;</span></label>
+                <div class="content">
+                <p>5-star rated appliances are designed to run more efficiently, reducing your consumption.</p>
+                <img src="Image/Eco Tips/5-star rated appliances.png">
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
