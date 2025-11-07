@@ -471,7 +471,7 @@ header{
         height: 52px;
         bottom: 34%;           
         left: 26%;              
-        transform: translateX(-50%); 
+        transform: translateX(50%); 
         font-size: 10px;
         opacity: 1;
     }
