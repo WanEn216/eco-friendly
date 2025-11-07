@@ -112,7 +112,7 @@ body{
 @media (max-width: 393px){
     body{
         background-attachment: fixed;
-        background-size: 143.18%;
+        background-size: 140%;
         background-position-x: -90px;
         background-position-y: 240px;
     }
@@ -440,8 +440,8 @@ header{
     .walking p{
         width: 100px;
         height: 120px;
-        bottom: 5%;
-        left: 66%;
+        bottom: 7.5%;
+        left: 64.5%;
         font-size: 10px;
     }
 
@@ -449,24 +449,24 @@ header{
         width: 80px;
         height: 140px;
         bottom: 1%;
-        left: 16%;
+        left: 15.5%;
         font-size: 10px;
         opacity: 1;
     }
 
     .public p{
-        width: 160px;
-        height: 55px;
-        bottom: 33.2%;
-        left: 26.8   %;
+        width: 155px;
+        height: 52px;
+        bottom: 33.95%;
+        left: 25.9%;
         font-size: 10px;
         opacity: 1;
     }
 
     .electric p{
         width: 100px;
-        height: 100px;
-        bottom: -6%;
+        height: 90px;
+        bottom: -1%;
         left: 32%;
         font-size: 10px;
         opacity: 1;
