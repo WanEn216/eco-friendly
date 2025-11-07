@@ -111,12 +111,10 @@ body{
 
 @media (max-width: 393px){
     body{
-        width: 100%;
-        height: 100%;
-        background-image: url(Image/transportation2.png);
-        background-size: 84%;
-        background-position-x: 0px;
-        background-position-y: 320px;
+        background-attachment: fixed;
+        background-size: 150%;
+        background-position-x: -90px;
+        background-position-y: 240px;
     }
 
     .navbar{
@@ -296,6 +294,7 @@ header{
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
+    overflow: visible;
 }
 
 .walking p{
@@ -451,18 +450,37 @@ header{
 
 @media (max-width: 393px){
     .walking p{
-        opacity: 0;
+        width: 100px;
+        height: 120px;
+        bottom: 5%;
+        left: 64.5%;
+        font-size: 10px;
     }
 
     .cycling p{
-        opacity: 0;
+        width: 80px;
+        height: 140px;
+        bottom: 1%;
+        left: 15.5%;
+        font-size: 10px;
+        opacity: 1;
     }
 
     .public p{
-        opacity: 0;
+        width: 155px;
+        height: 52px;
+        bottom: 33.95%;
+        left: 120px;
+        font-size: 10px;
+        opacity: 1;
     }
 
     .electric p{
-        opacity: 0;
+        width: 100px;
+        height: 90px;
+        bottom: -5%;
+        left: 32%;
+        font-size: 10px;
+        opacity: 1;
     }
 }
