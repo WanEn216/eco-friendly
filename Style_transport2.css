@@ -457,8 +457,8 @@ header{
     width: 150px;
     height: 55px;
     bottom: 33%;
-    left: 50%;
-    transform: translate(-100%, 0);
+    left: 25% !important;
+    transform: translate(-50%, 0);
   }
 
   .cycling p {
