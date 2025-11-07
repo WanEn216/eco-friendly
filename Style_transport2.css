@@ -469,9 +469,9 @@ header{
     .public p{
         width: 155px;
         height: 52px;
-        margin: 0 auto;
-        bottom: 33.95%;
-        right: 120px;
+        bottom: 34%;           
+        left: 26%;              
+        transform: translateX(-50%); 
         font-size: 10px;
         opacity: 1;
     }
