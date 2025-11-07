@@ -469,6 +469,7 @@ header{
     .public p{
         width: 155px;
         height: 52px;
+        margin: 0 auto;
         bottom: 33.95%;
         right: 120px;
         font-size: 10px;
