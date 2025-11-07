@@ -294,7 +294,6 @@ header{
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .walking p{
@@ -459,7 +458,7 @@ header{
     height: 55px;
     bottom: 33%;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-100%, 0);
   }
 
   .cycling p {
