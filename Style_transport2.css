@@ -234,7 +234,7 @@ header{
     .header_container p{
         margin-left: 12px;
         font-size: 14px;
-        width: 320px !important;
+        width: 360px !important;
         text-shadow: 0 0 5px #ffffff,0 0 20px white;
     }
 }
