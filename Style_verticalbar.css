@@ -33,9 +33,11 @@ body{
     position: fixed; 
     right: 0;
     top: 0;
-    width: 350px; 
+    width: 333px; 
     height: 100%; 
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
     background-attachment: fixed;
     background: linear-gradient(to left,white 120px,rgba(255, 255, 255, 0.895),rgba(255, 255, 255, 0.644),rgba(255, 255, 255, 0));
