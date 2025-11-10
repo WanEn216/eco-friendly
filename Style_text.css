@@ -60,8 +60,10 @@ body{
 .navbar a{
     text-decoration: none;
     color: var(--primary-color);
-    font-weight: 1000;
     font-size: 24px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar a:hover{
@@ -256,8 +258,11 @@ header{
     font-size: 32px;
     color: var(--text-dark);
     margin-bottom: 16px;
-    font-weight: 800;
     transition: transform 0.3s ease;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .topic h2:hover{
