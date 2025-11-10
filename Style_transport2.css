@@ -239,57 +239,6 @@ header{
     }
 }
 
-@media (max-width: 1180px){
-    .header_container{
-        margin-right: 225px;
-        margin-top: 40px;
-    }
-}
-
-@media (max-width: 820px){
-    header{
-        margin-top: 180px !important;
-    }
-
-    .header_container{
-        margin: 0 auto;
-        padding: 0 15px;
-    }
-
-    .header_container h1{
-        text-align: center;
-    }
-
-    .header_container p{
-        font-size: 20px;
-        width: 600px !important;
-        text-shadow: 0 0 5px #ffffff,0 0 20px white;
-    }
-}
-
-@media (max-width: 393px){
-    header{
-        margin-top: 240px;
-    }
-
-    .header_container{
-        margin: 0 auto;
-        padding: 0 15px;
-    }
-
-    .header_container h1{
-        font-size: 46px;
-        text-align: center;
-    }
-
-    .header_container p{
-        margin-left: 12px;
-        font-size: 14px;
-        width: 320px !important;
-        text-shadow: 0 0 5px #ffffff,0 0 20px white;
-    }
-}
-
 .transport{
     position: relative;
     width: 100%;
