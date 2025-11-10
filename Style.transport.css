@@ -235,7 +235,7 @@ header{
     .header_container p{
         margin-left: 12px;
         font-size: 14px;
-        width: 320px !important;
+        width: 360px !important;
         text-shadow: 0 0 5px #ffffff,0 0 20px white;
     }
 }
@@ -468,10 +468,6 @@ header{
 }
 
 @media (max-width: 393px){
-    .transportation{
-        margin-top: 40px;
-    }
-
     .walking{ 
         width: 25px;
         height: 32px;
@@ -481,7 +477,7 @@ header{
 
     .walking .tooltip{
         bottom: 33%;
-        left: 87%;
+        left: 88%;
         opacity: 1;
     }
 
@@ -506,7 +502,7 @@ header{
     }
 
     .public .tooltip{
-        bottom: 42%;
+        bottom: 41%;
         left: 38%;
         opacity: 1;
     }
@@ -519,7 +515,7 @@ header{
     }
 
     .electric .tooltip{
-        bottom: 13%;
+        bottom: 10%;
         left: 72%;
         opacity: 1;
     }  
