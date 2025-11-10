@@ -468,6 +468,10 @@ header{
 }
 
 @media (max-width: 393px){
+    .transportation{
+        margin-top: 40px;
+    }
+
     .walking{ 
         width: 25px;
         height: 32px;
