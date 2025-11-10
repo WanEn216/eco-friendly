@@ -16,10 +16,6 @@
 }
 
 body{
-    font-family: "Roboto"; sans-serif;
-}
-
-body{
     background-color: var(--primary-color-light);
     background-attachment: fixed;
     background-size: cover;
@@ -58,8 +54,10 @@ body{
 .navbar a{
     text-decoration: none;
     color: var(--primary-color);
-    font-weight: 1000;
     font-size: 24px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar a:hover{
@@ -171,6 +169,10 @@ header{
 
 .header_container p{
     width: 620px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     font-size: 18px;
     text-align: center;
     margin-top: -18px;
@@ -235,13 +237,17 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 220px;
+    margin-right: 420px;
     margin-bottom: 40px;
     gap: 40px;
 }
 
 .gallary_header h2{
     font-size: 2rem;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
     color: var(--text-dark);
     margin: auto;
     padding: 10px;
@@ -250,7 +256,7 @@ header{
 .gallary{
     align-items: center;
     gap: 20px;
-    width: 497px;
+    width:300px;
     height: 285px;
 }
 
@@ -278,7 +284,7 @@ header{
     border: 9px solid rgb(236, 236, 236);
     position: absolute;
     margin-top: -232px;
-    left: 22.35%;
+    left: 21.4%;
     opacity: 0;
     transition: opacity 0.5s ease;
     box-shadow: 0 5px 30px rgba(255, 255, 148, 0.655);
