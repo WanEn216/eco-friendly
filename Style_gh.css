@@ -16,10 +16,6 @@
 }
 
 body{
-    font-family: "Roboto"; sans-serif;
-}
-
-body{
     background-color: var(--primary-color-light);
     background-attachment: fixed;
     background-size: cover;
@@ -58,8 +54,10 @@ body{
 .navbar a{
     text-decoration: none;
     color: var(--primary-color);
-    font-weight: 1000;
     font-size: 24px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar a:hover{
@@ -176,6 +174,10 @@ header{
     margin-top: -18px;
     margin-bottom: 25px;
     text-shadow: 0 0 50px #ffffff,0 0 12px white;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 @media (max-width: 1180px){
