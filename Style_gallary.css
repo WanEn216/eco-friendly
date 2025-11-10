@@ -311,17 +311,18 @@ header{
 
 @media (max-width: 1180px){
     .overlay{
-        left: 20.3%;
+        left: 19.5%;
     }
 }
 
 @media (max-width:820px){
     .gallary_section{
         margin: 0 auto;
+        margin-left: -200px;
     }
 
     .overlay{
-        left: 20.8%;
+        left: 19.6%;
     }
 }
 
